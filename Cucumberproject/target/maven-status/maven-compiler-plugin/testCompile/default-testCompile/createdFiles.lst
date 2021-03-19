@@ -1,0 +1,5 @@
+apphooks\Applicationhooks.class
+stepdefinitions\AccountPageStepDefinition.class
+stepdefinitions\LoginStepdefinition.class
+testrunner\MyRunnerTest.class
+testrunner\FailedRerunTest.class

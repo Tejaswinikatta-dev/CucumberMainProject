@@ -1,0 +1,4 @@
+com\pages\LoginPage.class
+com\pages\AccountPage.class
+com\qe\factory\DriverFactory.class
+com\qe\util\ConfigReader.class
