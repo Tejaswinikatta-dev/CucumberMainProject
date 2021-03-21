@@ -1,18 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: Accounts Page feature
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 52.627 s <<< FAILURE! - in Accounts Page feature
-Accounts page title(Accounts Page feature)  Time elapsed: 14.579 s  <<< ERROR!
-org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0902S8CP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: RemoteWebDriver
-
-Accounts page title(Accounts Page feature)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.NoSuchSessionException: 
-Session ID is null. Using WebDriver after calling quit()?
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'LAPTOP-0902S8CP', ip: '192.168.43.219', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
-Driver info: driver.version: RemoteWebDriver
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 59.082 s - in Accounts Page feature

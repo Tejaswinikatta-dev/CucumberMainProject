@@ -8,7 +8,7 @@ public class LoginPage {
 	private WebDriver driver;
 	private By username=By.id("email");
 	private By password=By.id("passwd");
-	private By forgotPwdLink=By.linkText("Forgot your password?1111");
+	private By forgotPwdLink=By.linkText("Forgot your password?");
 	private By loginBtn=By.id("SubmitLogin");
 	
 	// 2 contructions

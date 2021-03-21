@@ -7,12 +7,13 @@ import io.cucumber.junit.CucumberOptions;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		plugin = { "pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
-				"timeline:test-output-thread/" ,"rerun:target/failedrerun.txt"}, 
-		monochrome = true,
+		
 		//tags= "not @skip_scenario",
 		features = { "src/test/resources/features" }, 
 		glue = { "stepdefinitions", "apphooks" },
+				plugin = { "pretty", "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+						"timeline:test-output-thread/" ,"rerun:target/failedrerun.txt"}, 
+				monochrome = true,
 		 publish = true
 		
 		)

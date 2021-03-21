@@ -52,6 +52,7 @@ public class Applicationhooks {
 	
 	@After(order=0)
 	public void quitBrowser(){
+		System.out.println("QuitingBrowser");
 		driver.quit();
 	}
 	

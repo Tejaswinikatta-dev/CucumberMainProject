@@ -56,13 +56,13 @@ public class DriverFactory {
 		}
 		// https://naveenanimation20:f418309b-b7b4-424d-825c-0d4a78b90bb5@ondemand.us-west-1.saucelabs.com:443/wd/hub
 		try {
-			driver = new RemoteWebDriver(new URL("https://ondemand.us-west-1.saucelabs.com:443/wd/hub"), cap);
-			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+			tlDriver.set(new RemoteWebDriver(new URL("https://ondemand.us-west-1.saucelabs.com:443/wd/hub"), cap));
+//			/driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
 		} catch (MalformedURLException e) {
 			e.printStackTrace();
 		}
-		return driver;
+		return getDriver();
 	}
 
 	public WebDriver init_driver(String browser) {
@@ -95,7 +95,7 @@ public class DriverFactory {
 	 * @return
 	 */
 	public static synchronized WebDriver getDriver() {
-		return driver;
+		return tlDriver.get();
 	}
 	
 }
